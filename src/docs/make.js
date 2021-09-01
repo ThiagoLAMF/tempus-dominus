@@ -420,8 +420,6 @@ class Build {
     const indexDocument = new JSDOM(
       fs.readFileSync(`./src/docs/templates/index.html`, 'utf8')
     ).window.document;
-    indexDocument.getElementById('post-container').innerHTML =
-      this.homePageHtml;
 
     const shell = this.shellDocument;
     shell.getElementById('outerContainer').innerHTML =

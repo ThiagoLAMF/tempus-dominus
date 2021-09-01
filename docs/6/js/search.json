@@ -56,7 +56,7 @@
   {
     "file": "installing.html",
     "title": "Download",
-    "body": "full installation doc comming soon if you want to test out the alpha grab js/css files from dist folder",
+    "body": "full installation doc comming soon if you want to test out the alpha grab js/css files from dist folder https://cdn.jsdelivr.net/gh/eonasdan/tempus-dominus@v6-alpha1/dist/js/tempus-dominus.js https://cdn.jsdelivr.net/gh/eonasdan/tempus-dominus@v6-alpha1/dist/css/tempus-dominus.css",
     "postDate": "07/08/2021",
     "updateDate": "07/08/2021",
     "excerpt": "How to install Tempus Dominus datetime picker.",

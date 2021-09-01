@@ -18,9 +18,10 @@
   "bugs": {
     "url": "https://github.com/eonasdan/tempus-dominus/issues"
   },
-  "peerDependencies": {},
-  "dependencies": {
+  "peerDependencies": {
     "@popperjs/core": "^2.9.2"
+  },
+  "dependencies": {
   },
   "description": "A robust and powerful date/time picker component. For usage, installation and demos see Project Site on GitHub",
   "devDependencies": {
@@ -42,7 +43,8 @@
     "tslib": "^2.3.0",
     "typescript": "^4.3.5",
     "concurrently": "^6.2.0",
-    "@digitak/esrun": "^1.2.6"
+    "@digitak/esrun": "^1.2.6",
+    "@popperjs/core": "^2.9.2"
   },
   "homepage": "https://getdatepicker.com/",
   "keywords": [
@@ -51,11 +53,14 @@
     "timepicker"
   ],
   "license": "MIT",
+  "style": "dist/css/tempus-dominus.css",
+  "sass": "scss/tempus-dominus.scss",
   "main": "src/js/tempus-dominus.js",
   "name": "tempus-dominus",
   "repository": {
     "type": "git",
     "url": "https://github.com/Eonasdan/tempus-dominus.git"
   },
-  "version": "6.0.0-alpha1"
+  "version": "6.0.0-alpha1",
+  "funding": "https://ko-fi.com/eonasdan"
 }
